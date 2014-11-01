@@ -14,6 +14,7 @@
 		4101660F1A04B8DF00C7F1DF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4101660D1A04B8DF00C7F1DF /* LaunchScreen.xib */; };
 		4101661B1A04B8DF00C7F1DF /* SwiftContactsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4101661A1A04B8DF00C7F1DF /* SwiftContactsTests.swift */; };
 		410166251A04B8FF00C7F1DF /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410166241A04B8FF00C7F1DF /* Contact.swift */; };
+		410166271A04C12600C7F1DF /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410166261A04C12600C7F1DF /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		410166191A04B8DF00C7F1DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4101661A1A04B8DF00C7F1DF /* SwiftContactsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftContactsTests.swift; sourceTree = "<group>"; };
 		410166241A04B8FF00C7F1DF /* Contact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		410166261A04C12600C7F1DF /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 			children = (
 				410166041A04B8DF00C7F1DF /* AppDelegate.swift */,
 				410166061A04B8DF00C7F1DF /* ViewController.swift */,
+				410166261A04C12600C7F1DF /* DetailViewController.swift */,
 				410166081A04B8DF00C7F1DF /* Main.storyboard */,
 				410166241A04B8FF00C7F1DF /* Contact.swift */,
 				4101660B1A04B8DF00C7F1DF /* Images.xcassets */,
@@ -218,6 +221,7 @@
 				410166251A04B8FF00C7F1DF /* Contact.swift in Sources */,
 				410166071A04B8DF00C7F1DF /* ViewController.swift in Sources */,
 				410166051A04B8DF00C7F1DF /* AppDelegate.swift in Sources */,
+				410166271A04C12600C7F1DF /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

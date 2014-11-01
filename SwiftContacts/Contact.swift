@@ -7,3 +7,19 @@
 //
 
 import Foundation
+class Contact {
+    var firstName: String?
+    var lastName: String?
+    var telephoneNumber: String?
+    
+    init(Firstname firstname:String, Lastname lastname:String, Telephone telNumber:String) {
+        firstName = firstname;
+        lastName = lastname;
+        telephoneNumber = telNumber;
+    }
+    
+    func toString() -> String {
+        return self.firstName!+" "+self.lastName!+", "+self.telephoneNumber!;
+    }
+}
+
