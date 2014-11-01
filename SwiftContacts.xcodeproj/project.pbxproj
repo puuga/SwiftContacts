@@ -13,6 +13,7 @@
 		4101660C1A04B8DF00C7F1DF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4101660B1A04B8DF00C7F1DF /* Images.xcassets */; };
 		4101660F1A04B8DF00C7F1DF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4101660D1A04B8DF00C7F1DF /* LaunchScreen.xib */; };
 		4101661B1A04B8DF00C7F1DF /* SwiftContactsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4101661A1A04B8DF00C7F1DF /* SwiftContactsTests.swift */; };
+		410166251A04B8FF00C7F1DF /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410166241A04B8FF00C7F1DF /* Contact.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		410166141A04B8DF00C7F1DF /* SwiftContactsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftContactsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		410166191A04B8DF00C7F1DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4101661A1A04B8DF00C7F1DF /* SwiftContactsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftContactsTests.swift; sourceTree = "<group>"; };
+		410166241A04B8FF00C7F1DF /* Contact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				410166041A04B8DF00C7F1DF /* AppDelegate.swift */,
 				410166061A04B8DF00C7F1DF /* ViewController.swift */,
 				410166081A04B8DF00C7F1DF /* Main.storyboard */,
+				410166241A04B8FF00C7F1DF /* Contact.swift */,
 				4101660B1A04B8DF00C7F1DF /* Images.xcassets */,
 				4101660D1A04B8DF00C7F1DF /* LaunchScreen.xib */,
 				410166021A04B8DE00C7F1DF /* Supporting Files */,
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				410166251A04B8FF00C7F1DF /* Contact.swift in Sources */,
 				410166071A04B8DF00C7F1DF /* ViewController.swift in Sources */,
 				410166051A04B8DF00C7F1DF /* AppDelegate.swift in Sources */,
 			);
